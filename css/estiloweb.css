@@ -1,0 +1,272 @@
+
+/*general*/
+body
+{
+ width:100%;
+}
+
+/*TITULO 1*/
+h1
+{
+ font-family:Verdana;
+ color:	#1c443c;/*COLOR VERDE*/
+ font-size:60px;
+ width:70%;
+ margin:15px;
+ padding:30px;
+ border:#1c443c 5px none; 
+ border-radius:10px;
+}
+
+/*TITULO 1 AL PASAR EL MAUS*/
+h1:hover
+{
+  font-family:Verdana;
+  color:#1c443c;/*COLOR VERDE*/
+  font-size:62px;
+}
+
+/*TITULO 2*/
+h2
+{
+ font-family:Verdana;
+ color :#f3f3eb;/*COLOR PRINCIPAL*/
+ font-size:50px; 
+ width:85%;
+ margin:22px;
+ padding:30px;
+ border:#f3f3eb; 5px none; 
+ border-radius: 10px;
+}
+
+/*TITULO 2 AL PASAR EL MAUS*/
+h2:hover
+{
+  font-family:Verdana;  
+  color:#1c443c;/*COLOR VERDE*/
+  font-size:58px;
+}
+
+/*TITULO 3*/
+h3
+{
+ font-family:Verdana;
+ color:#1c443c;/*COLOR VERDE*/
+ font-size:25px; 
+ width:85%;
+ margin:22px;
+ padding:30px;
+ border:#f3f3eb; 5px none; 
+ border-radius: 10px;
+}
+
+/*TITULO 3 AL PASAR EL MAUS*/
+h3:hover
+{
+  font-family:Verdana;  
+  color :#f3f3eb;/*COLOR PRINCIPAL*/
+  font-size:35px;
+}
+
+/*TEXTO NORMAL*/
+p
+{
+/*TAMAÑO, COLOR Y TIPO DE LETRA*/
+  font-family:Verdana;
+  color :#f3f3eb;/*COLOR PRINCIPAL*/
+  font-size:16px;
+  width:85%;
+/*COLOCAR FONDO DENTRO*/
+  margin:20px;
+  padding:30px;
+  border:#f3f3eb; 5px none; 
+  border-radius: 10px;
+}
+
+/*TEXTO NORMAL AL PASAR EL MAUS*/
+p:hover
+{
+  color:#1c443c;/* COLOR VERDE*/
+  background :#f3f3eb;/*COLOR PRINCIPAL*/
+}
+
+ul
+{
+ list-style-type:circle; /*circulo sin relleno*//*square marca la viñeta como cuadrado*/
+}
+
+ol
+{
+ list-style-type:decimal-leading-zero;/*inicia con "0", lower-latin pone letras en minusculas y upper-latin en mayusculas*/
+}
+
+.menu
+{
+ margin:20%;
+ font-size:20;
+ font-family:Verdana; 
+ list-style:none; /*QUITA LAS VIÑETAS*/
+ border-radius: 5px;
+/*QUITA LOS MARGENES DE LA LISTA*/
+ margin:5px;
+ padding:5px;
+}
+
+.menu li
+{
+ display:inline-block; /*PONE LOS ELEMENTO HORIZONTAL*/
+}
+
+.menu li a
+{
+ padding:20px; /*  COLOCA UN MARGEN A LOS ELEMENTO DE LA LISTA EN FORMA HORIZONTAL*/
+ display:inline-block;  
+ color:#FCFCFC;/*COLOR BLANCO*/
+}
+
+.menu li a:hover /* PARA REALIZAR CAMBIO AL PASAR EL MAUSE*/
+{
+ background :#FCFCFC;/* FONDO COLOR BLANCO*/
+ color:#1c443c;/* COLOR VERDE*/
+ font-size:22;
+ border-radius: 5px;
+ cursor:pointer;
+}
+
+
+table
+{
+ color:#FCFCFC;/*COLOR BLANCO*/
+ font-family:Verdana;
+ font-size:13;
+ border:1px null #FCFCFC; /*borde para la tabla px tipo de color color*/
+ border-collapse:collapse; /*borde de una linea*/
+}
+
+
+table td
+{
+ padding:20px; /*aumenta el tamaño de cada celda*/
+}
+
+
+table th
+{
+ padding:20px; /*aumenta el tamaño de cada celda*/
+}
+
+
+table td:hover
+{
+ font-size:14;
+ color:#FCFCFC;/*COLOR BLANCO*/
+ background:#1c443c;/* COLOR VERDE*/
+ padding:20px; /*aumenta el tamaño de cada celda*/
+ cursor:pointer;
+}
+
+
+/*DISEÑO DEL FORMULARIO*/
+form
+{
+ color:#FFFFFF;
+ width:55%;
+ border-radius:7px;
+ margin:20px;
+ padding:20px;
+ font-size:18px;
+}
+label
+{
+ font-size:18px;
+}
+
+/*para separar*/
+input, textarea
+{
+ color:#1c443c;/* COLOR VERDE*/
+ margin-bottom:8px;
+ width:auto;
+ padding:5px;/*Se da espacio entre el texto y la caja*/
+}
+
+/*color boton*/
+input[type="submit"]
+{
+ font-size:18px;
+ background:#1c443c;/*COLOR VERDE*/
+ color:#FFFFFF;/*COLOR BLNACO*/
+ width:25%;
+}
+
+/*color boton*/
+input[type="submit"]:hover
+{
+ background:#FFFFFF;/*COLOR BLNACO*/
+ color:#1c443c;/*COLOR VERDE*/
+ cursor:pointer;
+}
+
+input[type="reset"]
+{
+ font-size:18px;
+ background :#1c443c;/*COLOR VERDE*/
+ color:#FFFFFF;/*COLOR BLNACO*/
+ width:25%;
+}
+
+input[type="reset"]:hover
+{
+ background:#FFFFFF;/*COLOR BLNACO*/
+ color:#1c443c;/*COLOR VERDE*/
+ cursor:pointer;
+}
+
+/*DISEÑO DEL PIE DE PAGINA*/
+
+
+
+footer p
+{
+ font-size:16;
+ background:#604c45;
+ color :#f3f3eb;/*COLOR PRINCIPAL*/
+ clear:both; /*limpia los float*/
+ margin 0px;
+ padding:0px;
+ text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
